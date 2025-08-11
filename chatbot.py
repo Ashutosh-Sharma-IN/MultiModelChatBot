@@ -8,7 +8,7 @@ from langchain.memory import ConversationBufferWindowMemory
 # We define all our available models in a dictionary for easy management.
 AVAILABLE_MODELS = {
     "Together.xyz": {
-        "moonshotai/Kimi-K2-Instruct"" : "Kimi",
+        "moonshotai/Kimi-K2-Instruct" : "Kimi",
         "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8": "Llama 4 Maverick", # <-- Newest Llama
         "Qwen/Qwen3-235B-A22B-fp8-tput": "Qwen 3 72B", # <-- Newest Qwen
         "deepcogito/cogito-v2-preview-llama-70B" : "Cogito Llama Preview"    
