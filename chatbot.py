@@ -8,16 +8,16 @@ from langchain.memory import ConversationBufferWindowMemory
 # We define all our available models in a dictionary for easy management.
 AVAILABLE_MODELS = {
     "Together.xyz": {
-        "meta-llama/Llama-3.2-90B-Vision-Instruct-Turbo": "Llama 3.2 90B",
-        "Qwen/Qwen2.5-72B-Instruct-Turbo": "Qwen 2.5 72B",
+        "meta-llama/Llama-4-Maverick-70B-Instruct": "Llama 4 70B", # <-- Newest Llama
+        "Qwen/Qwen3-72B-Chat": "Qwen 3 72B", # <-- Newest Qwen
     },
     "OpenAI": {
+        "gpt-5-turbo": "GPT-5 Turbo", # <-- Newest OpenAI
         "gpt-4o": "GPT-4o",
-        "gpt-4o-mini": "GPT-4o Mini",
     },
     "Google": {
-        "gemini-1.5-pro-latest": "Gemini 1.5 Pro",
-        "gemini-1.5-flash-latest": "Gemini 1.5 Flash",
+        "gemini-2.5-pro-latest": "Gemini 2.5 Pro", # <-- Newest Gemini
+        "gemini-1.5-pro-latest": "Gemini 1.5 Pro", # <-- Kept for comparison
     }
 }
 
