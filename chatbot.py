@@ -12,12 +12,12 @@ AVAILABLE_MODELS = {
         "Qwen/Qwen3-72B-Chat": "Qwen 3 72B", # <-- Newest Qwen
     },
     "OpenAI": {
-        "gpt-5-turbo": "GPT-5 Turbo", # <-- Newest OpenAI
+        "gpt-5": "GPT-5", # <-- Newest OpenAI
         "gpt-4o": "GPT-4o",
     },
     "Google": {
-        "gemini-2.5-pro-latest": "Gemini 2.5 Pro", # <-- Newest Gemini
-        "gemini-1.5-pro-latest": "Gemini 1.5 Pro", # <-- Kept for comparison
+        "gemini-2.5-pro": "Gemini 2.5 Pro", # <-- Newest Gemini
+        "gemini-2.5-flash": "Gemini 2.5 Flash", # <-- Kept for comparison
     }
 }
 
