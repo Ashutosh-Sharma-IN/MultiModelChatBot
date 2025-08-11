@@ -2,3 +2,4 @@ langchain
 langchain-openai
 streamlit
 streamlit-chat
+langchain-google-genai
