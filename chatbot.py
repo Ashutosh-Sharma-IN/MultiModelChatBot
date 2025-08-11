@@ -8,6 +8,7 @@ from langchain.memory import ConversationBufferWindowMemory
 # We define all our available models in a dictionary for easy management.
 AVAILABLE_MODELS = {
     "Together.xyz": {
+        "deepseek-ai" = "deepseek-ai/DeepSeek-R1",
         "meta-llama/Llama-4-Maverick-70B-Instruct": "Llama 4 70B", # <-- Newest Llama
         "Qwen/Qwen3-72B-Chat": "Qwen 3 72B", # <-- Newest Qwen
     },
